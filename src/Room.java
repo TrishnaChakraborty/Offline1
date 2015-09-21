@@ -4,7 +4,7 @@
 public class Room {
     private String hallName;
     private int roomNo;
-    private Boolean status; // room allotment status
+    private boolean status; // room allotment status
 
     public Room() {
         //do noting
@@ -32,11 +32,11 @@ public class Room {
         roomNo = no;
     }
 
-    public Boolean getStatus() {
+    public boolean getStatus() {
         return status;
     }
 
-    public void setStatus(Boolean state) {
+    public void setStatus(boolean state) {
         status = state;
     }
 
